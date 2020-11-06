@@ -21,6 +21,8 @@ public class Settingspage extends AppCompatActivity {
         //--------------------------BluetoothButton-----------------
 
         bluetoothbutton = findViewById(R.id.bluetooth_button);
+
+       //------------------------LocationButton--------------------
         locationbutton = findViewById(R.id.location_button);
 
 
