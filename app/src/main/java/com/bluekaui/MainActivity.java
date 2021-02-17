@@ -28,9 +28,13 @@ public class MainActivity extends AppCompatActivity {
 
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             int i=0;
+            int MIN_VALUE=2;
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 i=progress;
+                if (i<MIN_VALUE){
+                    seekBar.setProgress(MIN_VALUE);
+                }
                 textView.setText(""+i);
             }
 

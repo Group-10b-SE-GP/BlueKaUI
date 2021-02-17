@@ -19,11 +19,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/gothic"
+            android:layout_gravity="center"
             android:text="BlueKa"
             android:textSize="18sp"
             android:textStyle="bold" />
 
     </androidx.appcompat.widget.Toolbar>
+
 
     <TextView
         android:id="@+id/textid"
@@ -32,7 +34,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:fontFamily="@font/verdana"
-        android:text="How many phones will connected?"
+        android:text="How many phones will be connected?"
         android:textSize="16sp" />
 
 
@@ -43,7 +45,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="90dp"
         android:fontFamily="@font/gothic"
-        android:text="0"
+        android:text="2"
         android:textSize="100sp" />
 
     <SeekBar
@@ -64,14 +66,5 @@
     android:text="CONNECT"
     android:id="@+id/connectbutton"
     />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-
-        android:layout_gravity="center"
-        android:text="Phones connected: " />
 
 </LinearLayout>
