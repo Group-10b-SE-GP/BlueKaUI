@@ -26,7 +26,6 @@ android:fitsSystemWindows="true">
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorAccent"
-        app:navigationIcon="@drawable/ic_menu"
         style="@style/Widget.MaterialComponents.Toolbar.PrimarySurface"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
         android:elevation="0dp"
